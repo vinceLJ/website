@@ -55,7 +55,7 @@ The StaticArray API is similar to the [Array API](./array.md), with the importan
 * ```ts
   function concat<U extends ArrayLike<T> = Array<T>>(other: U): U
   ```
-  Concatenates the values of this static and the other normal array to a new normal array, in this order. Patameter `U` accepts `Array<T>` or `StaticArray<T>` types.
+  Concatenates the values of this static and the other normal array to a new normal array, in this order. Parameter `U` accepts `Array<T>` or `StaticArray<T>` types.
 
 * ```ts
   function copyWithin(target: i32, start: i32, end?: i32): this
